@@ -1,5 +1,5 @@
 ## TF_decor
-* This program is the image classifier for traditional products
+* This program is the image classifier for traditional products from Russia, Poland, Turkey and Belarus
 * It bases on image classifier [tensorflow-for-poets-2](https://github.com/googlecodelabs/tensorflow-for-poets-2)
 
 * Accuracy achieved: 93.8%
@@ -25,7 +25,7 @@ In {IMAGE} put path to picture you want to recognize, for example `tf_files/deco
 ### Used dataset and sel_conv_reloc.py file
 Images of products from [this database](https://www.kaggle.com/olgabelitskaya/traditional-decor-patterns/data) were in .png extension and were mixed with images of patterns.
 Info about images was in `decor.csv` file (country, decor, type, file name), but there were some mistakes in column "type_label", so it was needed to use "type" column instead.
-`sel_conv_reloc.py` does all that things: selects images with products, converts them into a .jpg and puts them into a proper folder.
+`sel_conv_reloc.py` (located in tf_files) does all that things: selects images with products, converts them into a .jpg and puts them into a proper folder.
 	
 Piotr Sowiński
 

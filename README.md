@@ -1,6 +1,6 @@
 ## TF_decor
 * This program is the image classifier for traditional products
-* It bases on image classifier tensorflow-for-poets-2, avaliable [here](https://github.com/googlecodelabs/tensorflow-for-poets-2)
+* It bases on image classifier [tensorflow-for-poets-2](https://github.com/googlecodelabs/tensorflow-for-poets-2)
 
 * Accuracy achieved: 93.8%
 
